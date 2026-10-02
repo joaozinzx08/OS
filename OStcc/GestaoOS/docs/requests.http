@@ -1,0 +1,62 @@
+@base = http://localhost:3000/api
+@origin = http://localhost:5173
+@email = SEU_EMAIL
+@senha = SUA_SENHA
+@setorId = UUID_DO_SETOR
+@categoriaId = UUID_DA_CATEGORIA
+@ordemId = UUID_DA_ORDEM
+
+### Saúde
+GET {{base}}/status
+
+### Login — use cookie jar do cliente para as próximas chamadas
+POST {{base}}/auth/login
+Content-Type: application/json
+Origin: {{origin}}
+
+{"email":"{{email}}","senha":"{{senha}}"}
+
+### Sessão
+GET {{base}}/auth/me
+
+### Setores
+GET {{base}}/setores
+
+### Criar categoria (admin principal)
+POST {{base}}/categorias
+Content-Type: application/json
+Origin: {{origin}}
+
+{"nome":"Manutenção"}
+
+### Criar ordem
+POST {{base}}/ordens
+Content-Type: application/json
+Origin: {{origin}}
+
+{"titulo":"Computador não inicia","descricao":"O computador da recepção precisa de atendimento.","setorResponsavelId":"{{setorId}}","categoriaId":"{{categoriaId}}","prioridade":"Média","sigilo":false}
+
+### Listar ordens
+GET {{base}}/ordens?page=1&limit=10
+
+### Iniciar atendimento
+PATCH {{base}}/ordens/{{ordemId}}
+Content-Type: application/json
+Origin: {{origin}}
+
+{"status":"Em atendimento","justificativa":"Equipe iniciou o diagnóstico do equipamento."}
+
+### Substituir categoria
+PUT {{base}}/categorias/{{categoriaId}}
+Content-Type: application/json
+Origin: {{origin}}
+
+{"nome":"Manutenção técnica","ativo":true}
+
+### Desativar categoria
+DELETE {{base}}/categorias/{{categoriaId}}
+Origin: {{origin}}
+
+### Encerrar sessão
+POST {{base}}/auth/logout
+Origin: {{origin}}

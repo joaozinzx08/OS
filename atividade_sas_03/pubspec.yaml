@@ -1,0 +1,18 @@
+name: atividade_sas_03
+description: Atividade 3 - Perfil do Usuário
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.12.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/funcionario.png

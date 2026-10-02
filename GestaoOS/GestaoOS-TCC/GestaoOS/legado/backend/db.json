@@ -1,0 +1,926 @@
+{
+  "empresas": [
+    {
+      "id": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Banco do Brasil",
+      "email": "mefinocencio2009@gmail.com",
+      "codigo": "GEST-GSKT9T",
+      "dataCriacao": "2026-09-18T17:45:22.987Z",
+      "ativo": true,
+      "emailVerificado": true
+    },
+    {
+      "id": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "RJC Aero defesa e espacial",
+      "email": "Julia.proj9@gmail.com",
+      "codigo": "GEST-TAPI3Z",
+      "dataCriacao": "2026-09-21T10:27:04.164Z",
+      "ativo": true,
+      "emailVerificado": true
+    },
+    {
+      "id": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "tech services",
+      "email": "mefinocencio200@gmail.com",
+      "codigo": "GEST-U4U2FJ",
+      "dataCriacao": "2026-09-21T11:45:22.162Z",
+      "ativo": true,
+      "emailVerificado": true
+    },
+    {
+      "id": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Banco do Brasil",
+      "email": "nicolas123@gmail.com",
+      "codigo": "GEST-XGN4V1",
+      "dataCriacao": "2026-09-21T14:14:44.044Z",
+      "ativo": true,
+      "emailVerificado": true
+    },
+    {
+      "id": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "tech services",
+      "email": "joaogabrielzx884@gmail.com",
+      "codigo": "GEST-L33FDC",
+      "dataCriacao": "2026-09-28T10:57:54.654Z",
+      "ativo": true,
+      "emailVerificado": true
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "0c925528-9b21-4cf2-a2c6-320a8066235c",
+      "nome": "Maria Eduarda",
+      "email": "mefinocencio2009@gmail.com",
+      "senha": "$2a$10$uVXLgeHBB112QFTxpcIa..TevHv1lVsIeXp7N7Z1djb73j743F6gG",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "role": "administrador_principal",
+      "setorId": null,
+      "ativo": true,
+      "emailVerificado": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z",
+      "preferencias": {
+        "tema": "light",
+        "notificacoes": {
+          "novasOS": true,
+          "atualizacoes": true,
+          "prazos": true,
+          "chat": true
+        }
+      }
+    },
+    {
+      "id": "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+      "nome": "Julia de Moura Lopes da Silva",
+      "email": "Julia.proj9@gmail.com",
+      "senha": "$2a$10$OM9BHkvvZPjwQFq9iE.sbeBjHeSW8yNqRqAiPjm7IXMDJzZE13lx.",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "role": "administrador_principal",
+      "setorId": null,
+      "ativo": true,
+      "emailVerificado": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z",
+      "preferencias": {
+        "tema": "light",
+        "notificacoes": {
+          "novasOS": true,
+          "atualizacoes": true,
+          "prazos": true,
+          "chat": true
+        }
+      },
+      "avatar": "1789988278524-364217465.png"
+    },
+    {
+      "id": "2a26f6fc-2881-4096-b575-08cbdea53d6c",
+      "nome": "Maria Eduarda",
+      "email": "mefinocencio@gmail.com",
+      "senha": "$2a$10$wXKDzJaDs0ZLBK6qz7O.6ehePwBnUgP1fSVnqrK3SWwSipqAQi43m",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "role": "colaborador",
+      "setorId": "1bb78bec-a9c2-4ea7-8aef-3ceb53be2330",
+      "ativo": true,
+      "emailVerificado": true,
+      "dataCriacao": "2026-09-21T10:30:40.341Z"
+    },
+    {
+      "id": "5985fdcd-4357-44a1-b5c9-6ac7ee35ad21",
+      "nome": "Maria Eduarda",
+      "email": "mefinocencio200@gmail.com",
+      "senha": "$2a$10$vYxhJzTt1nh5DJxTdVDUFO9Gz9tKCfk9i8Y90eQz/23xD1MojYE9G",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "role": "administrador_principal",
+      "setorId": null,
+      "ativo": true,
+      "emailVerificado": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z",
+      "preferencias": {
+        "tema": "light",
+        "notificacoes": {
+          "novasOS": true,
+          "atualizacoes": true,
+          "prazos": true,
+          "chat": true
+        }
+      }
+    },
+    {
+      "id": "bdb02a2c-6027-45b5-9dff-bdde1cd75fce",
+      "nome": "Nicolas",
+      "email": "nicolas123@gmail.com",
+      "senha": "$2a$10$d4RzhD67Hj61oj8jwVcBveodBzdA7sTHPoPLK.PI9QLwSjSFTXOcq",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "role": "administrador_principal",
+      "setorId": null,
+      "ativo": true,
+      "emailVerificado": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z",
+      "preferencias": {
+        "tema": "light",
+        "notificacoes": {
+          "novasOS": true,
+          "atualizacoes": true,
+          "prazos": true,
+          "chat": true
+        }
+      }
+    },
+    {
+      "id": "ce997ec8-f276-4c05-8b27-c32d796f64ff",
+      "nome": "Márcio Pereira",
+      "email": "joaogabrielzx884@gmail.com",
+      "senha": "$2a$10$gfpzzGe/nPIZuz4FRWtYDu5bH/d8IIXsG4N6bfDaOoayqp8T4c1/q",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "role": "administrador_principal",
+      "setorId": null,
+      "ativo": true,
+      "emailVerificado": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z",
+      "preferencias": {
+        "tema": "light",
+        "notificacoes": {
+          "novasOS": true,
+          "atualizacoes": true,
+          "prazos": true,
+          "chat": true
+        }
+      }
+    }
+  ],
+  "verificacoes": [],
+  "setores": [
+    {
+      "id": "ee1664a6-dc27-47fb-bab3-71264a134926",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "RH",
+      "descricao": "Recursos Humanos",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "110d4898-61df-4582-b831-07aa8f021ddb",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Administração",
+      "descricao": "Administração Geral",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "8a9f0d41-ce7b-43b4-a49d-86d9c0fb726a",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Documentação Técnica",
+      "descricao": "Documentação Técnica",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "3fe62052-f338-4455-966d-58f8284f92c2",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Produção",
+      "descricao": "Produção",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "9765c86f-1b07-449a-b24c-85a8d5a244af",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Controle de Qualidade",
+      "descricao": "Controle de Qualidade",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "208e0310-f377-489c-b7df-0d8308f00531",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "TI / Sistemas",
+      "descricao": "Tecnologia da Informação",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "8ed97be8-b284-4bf2-a52d-f7f8d07ab44c",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Manutenção",
+      "descricao": "Manutenção",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "7ed3a486-1f67-40e3-b27d-196e12850c28",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Financeiro",
+      "descricao": "Financeiro",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "fbcd2abb-cb9c-42d1-92e4-3f6d2a2b4fa1",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Compras",
+      "descricao": "Compras",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "c0c702e6-dd98-434f-879b-ac8d34dddaec",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Logística",
+      "descricao": "Logística",
+      "ativo": true,
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "1bb78bec-a9c2-4ea7-8aef-3ceb53be2330",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "RH",
+      "descricao": "Recursos Humanos",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "3d685dde-9e6b-4b20-9a96-0631221674f0",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Administração",
+      "descricao": "Administração Geral",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "9e5c28da-7478-4945-866e-3363deb709a7",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Documentação Técnica",
+      "descricao": "Documentação Técnica",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "dca3d329-8066-42dc-8d9e-d4cba92a03dc",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Produção",
+      "descricao": "Produção",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "87f7d432-1c24-4cfa-b8df-c6df09471b68",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Controle de Qualidade",
+      "descricao": "Controle de Qualidade",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "624d2b0a-7230-4769-8999-3320034f04fa",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "TI / Sistemas",
+      "descricao": "Tecnologia da Informação",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "525e4618-5a5d-4281-934a-7b9a53743985",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Manutenção",
+      "descricao": "Manutenção",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "486cfd1e-1410-4011-a7fd-8534c8c8a36a",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Financeiro",
+      "descricao": "Financeiro",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "216f8086-1d0b-4f9d-9b96-40da83afe538",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Compras",
+      "descricao": "Compras",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "eda21336-8c44-4579-beb1-2730e49090f7",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Logística",
+      "descricao": "Logística",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "2fb56c34-1f64-434f-bfcf-4e02c20800c5",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "RH",
+      "descricao": "Recursos Humanos",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "3d17f863-a35d-46aa-8620-e6f7760582ad",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Administração",
+      "descricao": "Administração Geral",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "c94f1890-4722-4031-8beb-231803432d20",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Documentação Técnica",
+      "descricao": "Documentação Técnica",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "948d0a16-3c5e-46bc-b561-6d353a79971a",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Produção",
+      "descricao": "Produção",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "2fa57a57-737e-40f8-9976-7555a35fbbf7",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Controle de Qualidade",
+      "descricao": "Controle de Qualidade",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "dcb1a9e0-0723-4b5a-9f9a-ebc3f033dfde",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "TI / Sistemas",
+      "descricao": "Tecnologia da Informação",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "a71b8f31-93bb-4121-b2b4-f4c84c84a460",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Manutenção",
+      "descricao": "Manutenção",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "31303c40-3ec2-4c70-8f50-208ab050e2a8",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Financeiro",
+      "descricao": "Financeiro",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "b96de4d1-6aa3-4edd-8b58-23e740f99082",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Compras",
+      "descricao": "Compras",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "b07c6178-560a-4ece-a7aa-cdc909d9df5f",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Logística",
+      "descricao": "Logística",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "9ce3da0c-e726-4da8-82a1-2f3460616907",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "RH",
+      "descricao": "Recursos Humanos",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "1b2b855e-c4a0-4718-bfe3-a8de4f3e70fe",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Administração",
+      "descricao": "Administração Geral",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "5e1d34f4-4154-460c-90b0-6c85c646fc29",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Documentação Técnica",
+      "descricao": "Documentação Técnica",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "6462e214-2317-4b19-90dd-3a32dac225f2",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Produção",
+      "descricao": "Produção",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "969b2076-2f35-474f-b0b9-0cb7eafe52e2",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Controle de Qualidade",
+      "descricao": "Controle de Qualidade",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "9d63664f-c2db-4d75-91f9-6927ed14ef6a",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "TI / Sistemas",
+      "descricao": "Tecnologia da Informação",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "0344fc07-7fc9-4655-9cb4-8a79ca0c0f1c",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Manutenção",
+      "descricao": "Manutenção",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "365756da-3769-442c-80bb-2a09737b656c",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Financeiro",
+      "descricao": "Financeiro",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "530e39a1-e044-4b61-a7d9-3a1394e31d16",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Compras",
+      "descricao": "Compras",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "eb6f2be1-255e-4a59-a815-2e1e66ca97d4",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Logística",
+      "descricao": "Logística",
+      "ativo": true,
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "97bc38e4-267c-4d2b-a0a7-2f16e2ba805c",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "RH",
+      "descricao": "Recursos Humanos",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "c1742164-c09f-4e99-8884-fcd15c54b0a7",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Administração",
+      "descricao": "Administração Geral",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "def00b69-bf61-4f3f-a5c6-783f9656025e",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Documentação Técnica",
+      "descricao": "Documentação Técnica",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "689794ec-b89e-441c-912a-2be2ff38c518",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Produção",
+      "descricao": "Produção",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "5bdaa06d-0604-4ef1-8c9b-f7dab0bd658b",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Controle de Qualidade",
+      "descricao": "Controle de Qualidade",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "55453035-1cd8-4552-b4d9-8dfb3d0fbec5",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "TI / Sistemas",
+      "descricao": "Tecnologia da Informação",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "9894a21e-9d17-4050-9f37-85d8c1a0ff3c",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Manutenção",
+      "descricao": "Manutenção",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "af4e9441-81b1-4692-8091-4e3b7ad228d1",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Financeiro",
+      "descricao": "Financeiro",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "aa7dfb9f-7c02-4517-a2d7-9755bd39abe4",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Compras",
+      "descricao": "Compras",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    },
+    {
+      "id": "c058af3e-911c-4023-8c6f-d08136e6aada",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Logística",
+      "descricao": "Logística",
+      "ativo": true,
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "47f73a63-b9c3-4443-88d0-21d46e96dd18",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Estrutura Física",
+      "subcategorias": [
+        "Equipamentos",
+        "Instalações",
+        "Infraestrutura",
+        "Segurança Patrimonial"
+      ]
+    },
+    {
+      "id": "8a6b1cde-fa73-45e5-83cf-aed5f71e1eeb",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Sistemas e Processos Internos",
+      "subcategorias": [
+        "Processos",
+        "Sistemas",
+        "Documentação",
+        "Metodologias"
+      ]
+    },
+    {
+      "id": "cfb5bf8d-fb63-4c9a-ac90-1384a3b840dd",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Pessoas, Conduta e Situações Sensíveis",
+      "subcategorias": [
+        "Recursos Humanos",
+        "Conduta",
+        "Denúncias",
+        "Sugestões"
+      ]
+    },
+    {
+      "id": "72170c16-41e4-46a8-bd0f-45e9f7f63014",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Estrutura Física",
+      "subcategorias": [
+        "Equipamentos",
+        "Instalações",
+        "Infraestrutura",
+        "Segurança Patrimonial"
+      ]
+    },
+    {
+      "id": "a7a4d6ce-0bbc-4270-b3ba-b827dd5b60c9",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Sistemas e Processos Internos",
+      "subcategorias": [
+        "Processos",
+        "Sistemas",
+        "Documentação",
+        "Metodologias"
+      ]
+    },
+    {
+      "id": "59f854a3-5f3f-4b90-910d-df904328ef32",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Pessoas, Conduta e Situações Sensíveis",
+      "subcategorias": [
+        "Recursos Humanos",
+        "Conduta",
+        "Denúncias",
+        "Sugestões"
+      ]
+    },
+    {
+      "id": "dc89ba04-3987-4e75-a835-446b0eeb628e",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Estrutura Física",
+      "subcategorias": [
+        "Equipamentos",
+        "Instalações",
+        "Infraestrutura",
+        "Segurança Patrimonial"
+      ]
+    },
+    {
+      "id": "42bb5ecf-539e-4f65-81fa-2d3afe11fd5d",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Sistemas e Processos Internos",
+      "subcategorias": [
+        "Processos",
+        "Sistemas",
+        "Documentação",
+        "Metodologias"
+      ]
+    },
+    {
+      "id": "9d32eb60-4cb9-4425-a2d2-1c4e9a39ecbc",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Pessoas, Conduta e Situações Sensíveis",
+      "subcategorias": [
+        "Recursos Humanos",
+        "Conduta",
+        "Denúncias",
+        "Sugestões"
+      ]
+    },
+    {
+      "id": "5c7fa03e-f395-4838-a407-ca43fa6de3a8",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Estrutura Física",
+      "subcategorias": [
+        "Equipamentos",
+        "Instalações",
+        "Infraestrutura",
+        "Segurança Patrimonial"
+      ]
+    },
+    {
+      "id": "3d1c5a61-da92-4374-8631-3920a2334a22",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Sistemas e Processos Internos",
+      "subcategorias": [
+        "Processos",
+        "Sistemas",
+        "Documentação",
+        "Metodologias"
+      ]
+    },
+    {
+      "id": "91059516-33ba-40f0-9efa-45a0d4d1a44c",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Pessoas, Conduta e Situações Sensíveis",
+      "subcategorias": [
+        "Recursos Humanos",
+        "Conduta",
+        "Denúncias",
+        "Sugestões"
+      ]
+    },
+    {
+      "id": "c488b2db-7485-4d28-ae36-f8b291c3eaf1",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Estrutura Física",
+      "subcategorias": [
+        "Equipamentos",
+        "Instalações",
+        "Infraestrutura",
+        "Segurança Patrimonial"
+      ]
+    },
+    {
+      "id": "cbd962d6-057b-436a-a228-5889a5f59634",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Sistemas e Processos Internos",
+      "subcategorias": [
+        "Processos",
+        "Sistemas",
+        "Documentação",
+        "Metodologias"
+      ]
+    },
+    {
+      "id": "eceb1369-8bca-458b-81c9-a8440aea4dc7",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Pessoas, Conduta e Situações Sensíveis",
+      "subcategorias": [
+        "Recursos Humanos",
+        "Conduta",
+        "Denúncias",
+        "Sugestões"
+      ]
+    }
+  ],
+  "ordensServico": [
+    {
+      "id": "a17d5bb7-fbc5-47a1-b997-335464fb2f5e",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "solicitanteId": "2a26f6fc-2881-4096-b575-08cbdea53d6c",
+      "setorSolicitanteId": null,
+      "setorResponsavelId": "1bb78bec-a9c2-4ea7-8aef-3ceb53be2330",
+      "titulo": "sem internet",
+      "descricao": "sem internet no computador",
+      "categoria": "Sistemas e Processos Internos",
+      "subcategoria": "",
+      "prioridade": "Urgente",
+      "status": "Aberta",
+      "prazo": null,
+      "sigilo": true,
+      "anexos": [
+        "1789986753053-397873642.png"
+      ],
+      "dataAbertura": "2026-09-21T10:32:33.096Z",
+      "dataAtualizacao": "2026-09-21T10:32:33.096Z",
+      "dataConclusao": null
+    }
+  ],
+  "historico": [
+    {
+      "id": "507c571a-d1f9-4059-a946-1088dfef875b",
+      "ordemId": "a17d5bb7-fbc5-47a1-b997-335464fb2f5e",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "2a26f6fc-2881-4096-b575-08cbdea53d6c",
+      "acao": "Abertura",
+      "descricao": "Ordem de serviço criada",
+      "data": "2026-09-21T10:32:33.096Z"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": "080dda46-2c5c-457d-90d2-5262c078e903",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+      "titulo": "Novo colaborador",
+      "mensagem": "Maria Eduarda entrou na empresa",
+      "lida": false,
+      "data": "2026-09-21T10:30:40.378Z"
+    }
+  ],
+  "auditoria": [
+    {
+      "id": "08e8ceac-4844-4fcd-ad13-dd8eb08b1260",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "usuarioId": "0c925528-9b21-4cf2-a2c6-320a8066235c",
+      "acao": "Empresa criada",
+      "detalhes": "Empresa Banco do Brasil criada",
+      "data": "2026-09-18T17:45:23.067Z"
+    },
+    {
+      "id": "5c493257-8bf9-4152-aa0d-3ff9ee3584ca",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+      "acao": "Empresa criada",
+      "detalhes": "Empresa RJC Aero defesa e espacial criada",
+      "data": "2026-09-21T10:27:04.678Z"
+    },
+    {
+      "id": "644b43b5-9050-47f2-9cd4-c1a91da1ab2a",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+      "acao": "Login",
+      "detalhes": "Julia de Moura Lopes da Silva fez login",
+      "data": "2026-09-21T10:28:56.234Z"
+    },
+    {
+      "id": "9120059d-9c8d-40d8-af07-4be189dcefcf",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "2a26f6fc-2881-4096-b575-08cbdea53d6c",
+      "acao": "Criou OS",
+      "detalhes": "sem internet",
+      "data": "2026-09-21T10:32:33.119Z"
+    },
+    {
+      "id": "ef29569c-6ec4-420a-8b07-a103fd574505",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+      "acao": "Login",
+      "detalhes": "Julia de Moura Lopes da Silva fez login",
+      "data": "2026-09-21T10:32:53.808Z"
+    },
+    {
+      "id": "11818df7-55d8-4ef9-af1d-ba97b68ddfb7",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "usuarioId": "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+      "acao": "Login",
+      "detalhes": "Julia de Moura Lopes da Silva fez login",
+      "data": "2026-09-21T10:38:27.696Z"
+    },
+    {
+      "id": "c7afbbf9-a663-439a-bbe9-9ebb4e20485c",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "usuarioId": "5985fdcd-4357-44a1-b5c9-6ac7ee35ad21",
+      "acao": "Empresa criada",
+      "detalhes": "Empresa tech services criada",
+      "data": "2026-09-21T11:45:22.387Z"
+    },
+    {
+      "id": "ff8d04f0-14a3-4c03-b6b8-b4370aceabd0",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "usuarioId": "0c925528-9b21-4cf2-a2c6-320a8066235c",
+      "acao": "Login",
+      "detalhes": "Maria Eduarda fez login",
+      "data": "2026-09-21T12:03:22.361Z"
+    },
+    {
+      "id": "d29a9bd1-7c95-4af1-b354-d65d9ab10f13",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "usuarioId": "bdb02a2c-6027-45b5-9dff-bdde1cd75fce",
+      "acao": "Empresa criada",
+      "detalhes": "Empresa Banco do Brasil criada",
+      "data": "2026-09-21T14:14:44.145Z"
+    },
+    {
+      "id": "65ae25f5-1453-4922-a751-3f0068a9451e",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "usuarioId": "ce997ec8-f276-4c05-8b27-c32d796f64ff",
+      "acao": "Empresa criada",
+      "detalhes": "Empresa tech services criada",
+      "data": "2026-09-28T10:57:54.809Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "5828adef-6bb6-4576-9eab-075a090225bb",
+      "empresaId": "4c8e41b5-0739-44ea-b1d6-f98fd6701b6c",
+      "nome": "Geral",
+      "tipo": "empresa",
+      "participantes": [
+        "0c925528-9b21-4cf2-a2c6-320a8066235c"
+      ],
+      "mensagens": [],
+      "dataCriacao": "2026-09-18T17:45:23.058Z"
+    },
+    {
+      "id": "8003d56f-2fda-48ff-a59a-b95a0d7a900a",
+      "empresaId": "52eb3cb3-d9ea-41e0-94da-adc1100063a9",
+      "nome": "Geral",
+      "tipo": "empresa",
+      "participantes": [
+        "8d3e7149-84e6-4dd7-b12c-e66e0ad14ff7",
+        "2a26f6fc-2881-4096-b575-08cbdea53d6c"
+      ],
+      "mensagens": [],
+      "dataCriacao": "2026-09-21T10:27:04.646Z"
+    },
+    {
+      "id": "8007485f-c4ff-4071-908a-917a6da402cb",
+      "empresaId": "ec495af2-a351-4948-a3e1-aa020b39f668",
+      "nome": "Geral",
+      "tipo": "empresa",
+      "participantes": [
+        "5985fdcd-4357-44a1-b5c9-6ac7ee35ad21"
+      ],
+      "mensagens": [],
+      "dataCriacao": "2026-09-21T11:45:22.370Z"
+    },
+    {
+      "id": "1507f6e0-47ce-4a5f-96cf-65f213f422c9",
+      "empresaId": "9c55f714-f5be-41d5-b05b-410e8605a53c",
+      "nome": "Geral",
+      "tipo": "empresa",
+      "participantes": [
+        "bdb02a2c-6027-45b5-9dff-bdde1cd75fce"
+      ],
+      "mensagens": [],
+      "dataCriacao": "2026-09-21T14:14:44.136Z"
+    },
+    {
+      "id": "45dcf738-460f-423f-be81-d9959b65de50",
+      "empresaId": "58fbd5ef-2200-4562-8e81-fe0cce4eb06a",
+      "nome": "Geral",
+      "tipo": "empresa",
+      "participantes": [
+        "ce997ec8-f276-4c05-8b27-c32d796f64ff"
+      ],
+      "mensagens": [],
+      "dataCriacao": "2026-09-28T10:57:54.790Z"
+    }
+  ],
+  "conhecimento": [],
+  "tokens": []
+}

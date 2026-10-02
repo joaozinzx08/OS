@@ -1,0 +1,33 @@
+{
+  "name": "gestao-os",
+  "version": "2.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "setup": "npm run setup -w backend",
+    "db:migrate": "npm run db:migrate -w backend",
+    "admin:create": "npm run admin:create -w backend",
+    "dev": "concurrently -k -n API,WEB -c cyan,green \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "test": "npm test -w backend",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "overrides": {
+    "sequelize": {
+      "uuid": "^11.1.1"
+    },
+    "sqlite3": {
+      "node-gyp": "^12.4.0"
+    },
+    "tar": "^7.5.21"
+  }
+}

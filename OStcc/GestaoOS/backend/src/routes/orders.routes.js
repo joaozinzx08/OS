@@ -1,0 +1,11 @@
+import { Router } from 'express';
+import { validate, schemas, validId } from '../validators/index.js';
+import * as controller from '../controllers/orders.controller.js';
+const router = Router();
+router.get('/', controller.list);
+router.post('/', validate(schemas.orderCreate), controller.create);
+router.get('/:id', validId, controller.detail);
+router.patch('/:id', validId, validate(schemas.orderUpdate), controller.update);
+router.post('/:id/comentarios', validId, validate(schemas.comment), controller.comment);
+router.get('/:id/responsaveis', validId, controller.assignees);
+export default router;

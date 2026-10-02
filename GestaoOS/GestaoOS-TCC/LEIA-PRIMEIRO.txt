@@ -1,0 +1,15 @@
+GestãoOS — versão integrada para o TCC
+
+Abra o terminal dentro da pasta GestaoOS (onde está package.json).
+Instale Node.js 24 LTS e execute:
+
+npm install
+npm run setup
+npm run dev
+
+Abra http://127.0.0.1:5173
+
+Instruções completas: GestaoOS/README.md
+Testes e limites: GestaoOS/docs/VALIDACAO.md
+Os PDFs originais foram preservados na pasta Documentos - GestaoOS.
+O db.json antigo e anexos estão em GestaoOS/legado/backend para migração opcional.

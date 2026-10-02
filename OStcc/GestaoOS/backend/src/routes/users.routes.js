@@ -1,0 +1,11 @@
+import { Router } from 'express';
+import { allow } from '../middlewares/auth.js';
+import { validate, schemas, validId } from '../validators/index.js';
+import * as controller from '../controllers/users.controller.js';
+const router = Router();
+router.use(allow('administrador_principal','administrador_setor'));
+router.get('/', controller.list);
+router.post('/', validate(schemas.userCreate), controller.create);
+router.patch('/:id', validId, validate(schemas.userUpdate), controller.update);
+router.delete('/:id', validId, async (req,res) => { req.data = { ativo: false }; await controller.update(req,res); });
+export default router;
